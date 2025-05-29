@@ -1,50 +1,92 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Special+Gothic+Condensed+One&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Special+Gothic+Condensed+One&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap");
 
 * {
-    margin: 0;
-    border: 0;
-    text-decoration: none;
-    list-style: none;
-    color: black;
+  margin: 0;
+  border: 0;
+  text-decoration: none;
+  list-style: none;
+  color: black;
 }
 
 /* HEADER */
 
 header {
-    display: flex;
+  display: flex;
+  justify-content: center;
 }
 
 #navbar {
-    width: 100%;
-    padding: 20px;
-    display: flex;
-    justify-content: space-between;
+  width: 70%;
 }
 
 #logo {
-    width: 5%
+  width: 5%;
 }
 
 #pages_links {
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    padding: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  height: 100%;
 }
 
 #pages_links li {
-    display: flex;
-    text-transform: uppercase;
-    padding: 20px;
-    width: 10%;
-    justify-content: center;
+  width: 50%;
 }
 
 #pages_links li a {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  font-family: "Special Gothic Condensed One", sans-serif;
+  font-size: 30px;
+}
+
+#delivery_logo {
+    padding: 0 0 0 10px;
+}
+
+#pages_links li a:hover {
+    background-color: brown;
+}
+
+/* CARROSSEL */
+
+#carousel {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 80%;
+}
+
+#card_carousel {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+#image_carousel {
     width: 100%;
     height: 100%;
 }
 
-#pages_links li a:hover {
+.setas {
+    position: absolute;
+    height: 100%;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+#arrowright {
+    right: 0;
+}
+
+#arrowleft {
+    left: 0;
 }

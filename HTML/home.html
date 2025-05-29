@@ -17,6 +17,7 @@
     />
 
     <link rel="stylesheet" href="/CSS/home.css" />
+    <script src="/JS/home.js" async></script>
     <title>Fiorinni</title>
   </head>
   <body>
@@ -29,16 +30,27 @@
           <li id="home"><a href="/HTML/home.html">Início</a></li>
           <li id="menu"><a href="">Cardápio</a></li>
           <li id="local"><a href="">Local</a></li>
-          <li id="order"><a href="">Faça seu pedido</a></li>
+          <li id="order">
+            <a href=""
+              >Faça seu pedido
+              <span id="delivery_logo" class="material-symbols-outlined">
+                delivery_truck_speed
+              </span></a
+            >
+          </li>
         </ul>
       </nav>
     </header>
     <!-- SECTION / CARROUSEL -->
     <section id="carousel">
       <div id="card_carousel">
-        <p>&LeftArrow;</p>
-        <img id="image_carousel" src="" alt="image_carousel" />
-        <p>&RightArrow;</p>
+        <p id="arrowleft" class="setas">&LeftArrow;</p>
+        <img
+          id="image_carousel"
+          src="/IMAGES/carousel1.jpg"
+          alt="image_carousel"
+        />
+        <p id="arrowright" class="setas">&RightArrow;</p>
       </div>
     </section>
     <!-- SECTION / ABOUT -->
