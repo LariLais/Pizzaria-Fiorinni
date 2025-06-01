@@ -1,6 +1,5 @@
 // Lista de imagens do carrossel
 const images = [
-  "/IMAGES/carousel1.jpg",
   "/IMAGES/carousel2.jpg",
   "/IMAGES/carousel3.jpg",
 ];

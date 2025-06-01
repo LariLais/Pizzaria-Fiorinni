@@ -13,6 +13,7 @@
 header {
   display: flex;
   justify-content: center;
+  height: 100px;
 }
 
 #navbar {
@@ -20,7 +21,7 @@ header {
 }
 
 #logo {
-  width: 5%;
+  width: 4%;
 }
 
 #pages_links {
@@ -31,7 +32,7 @@ header {
 }
 
 #pages_links li {
-  width: 50%;
+  width: 40%;
 }
 
 #pages_links li a {
@@ -46,90 +47,125 @@ header {
 }
 
 #delivery_logo {
-    padding: 0 0 0 10px;
+  padding: 0 0 0 10px;
 }
 
 #pages_links li a:hover {
-    background-color: brown;
+  background-color: brown;
 }
 
 /* CARROSSEL */
 
 #carousel {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    height: 80%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 80%;
 }
 
 #card_carousel {
-    display: flex;
-    width: 100%;
-    justify-content: center;
+  width: 100%;
+  background-color: rgb(2, 44, 2);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
 }
 
 #image_carousel {
-    width: 100%;
-    height: 100%;
-}
-
-.setas {
-    position: absolute;
-    height: 100%;
-    width: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#arrowright {
-    right: 0;
-}
-
-#arrowleft {
-    left: 0;
+  width: 60%;
+  height: 100%;
 }
 
 /* ABOUT */
 
 #about {
   display: flex;
+  justify-content: center;
   width: 100%;
   background-color: rgb(218, 218, 218);
 }
 
 #card_image_about {
-  width: 50%;
+  width: 27%;
   padding: 20px;
 }
 
 #image_about {
-  width: 25%;
+  width: 100%;
+  border-radius: 20px;
 }
 
 #card_text_about {
-  
+  width: 30%;
+  padding: 20px;
+}
+
+#title_text_about {
+  font-family: "Special Gothic Condensed One", sans-serif;
+  font-size: 40px;
+  padding-bottom: 20px;
+}
+
+#text_about {
+  font-family: 'Lato', sans-serif;
+  font-size: 25px;
+  text-align: justify;
+}
+
+/* SOCIAL */
+
+#social {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+#card_social {
+  width: 60%;
+  text-align: center;
+  padding: 20px;
+}
+
+#card_social h2 {
+  font-family: "Special Gothic Condensed One", sans-serif;
+  font-size: 40px;
+  padding-bottom: 20px;
+}
+
+#conteiner_images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.images_social {
+  width: 300px;
+  height: 300px;
 }
 
 /* FOOTER */
 
 footer {
-  display: flex;
-  width: 100%;
   background-color: rgb(2, 44, 2);
-  padding: 20px;
-  justify-content: space-around;
   font-family: "Lato", sans-serif;
+  display: flex;
+  justify-content: space-around;
 }
 
 #info_footer {
-
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
 .card_info {
   display: flex;
-  padding: 10px;
-  align-items: center;
-  padding-right: 20px;
+  gap: 10px;
+}
+
+#More_info_footer {
+  padding: 20px;
 }
